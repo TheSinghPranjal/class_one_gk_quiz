@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.class_one_gk_quiz"
+    namespace = "com.the_lazy_bear_club.class_one_gk_quiz"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.class_one_gk_quiz"
+        applicationId = "com.the_lazy_bear_club.class_one_gk_quiz"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
