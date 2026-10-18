@@ -17,6 +17,17 @@ abstract final class AppColors {
   static const Color avatarRing = Color(0xFFFC328B);
   static const Color clearButton = Color(0xFFAFAEAD);
 
+  // "Leave the quiz?" dialog.
+  static const Color dialogCream = Color(0xFFF7EBDD);
+  static const Color dialogBody = Color(0xFF584235);
+  static const Color keepPlayingTop = Color(0xFFFDEAE9);
+  static const Color keepPlayingBottom = Color(0xFFF9D2D2);
+  static const Color keepPlayingDepth = Color(0xFFF0B3C0);
+  static const Color keepPlayingText = Color(0xFFC8095B);
+  static const Color leaveTop = Color(0xFFF25B94);
+  static const Color leaveBottom = Color(0xFFE6337A);
+  static const Color leaveDepth = Color(0xFFCB0D5D);
+
   static const Color primary = Color(0xFFFF7EB6);
   static const Color primaryDark = Color(0xFFE85FA0);
 

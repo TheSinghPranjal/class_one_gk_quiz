@@ -18,6 +18,7 @@ import '../data/sections_data.dart';
 import '../providers/quiz_controller.dart';
 import '../providers/quiz_state.dart';
 import 'widgets/fun_fact_card.dart';
+import 'widgets/leave_quiz_dialog.dart';
 import 'widgets/option_button.dart';
 import 'widgets/progress_dots.dart';
 import 'widgets/question_card.dart';
@@ -83,27 +84,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
     super.dispose();
   }
 
-  Future<bool> _confirmExit() async {
-    final result = await showDialog<bool>(
-      context: context,
-      builder: (context) => AlertDialog(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-        title: const Text('Leave the quiz?'),
-        content: const Text("Your progress on this quiz won't be saved."),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Keep Playing'),
-          ),
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Leave'),
-          ),
-        ],
-      ),
-    );
-    return result ?? false;
-  }
+  Future<bool> _confirmExit() => showLeaveQuizDialog(context);
 
   @override
   Widget build(BuildContext context) {
