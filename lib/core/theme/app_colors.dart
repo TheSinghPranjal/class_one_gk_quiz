@@ -12,6 +12,11 @@ abstract final class AppColors {
   static const Color hintInk = Color(0xFF82455E);
   static const Color quizCream = Color(0xFFFCF3DF);
 
+  // Onboarding (name + avatar) screen.
+  static const Color nameFieldBorder = Color(0xFFFC6CA4);
+  static const Color avatarRing = Color(0xFFFC328B);
+  static const Color clearButton = Color(0xFFAFAEAD);
+
   static const Color primary = Color(0xFFFF7EB6);
   static const Color primaryDark = Color(0xFFE85FA0);
 
