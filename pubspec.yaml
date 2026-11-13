@@ -90,6 +90,7 @@ flutter:
     - assets/images/quiz/
     - assets/images/splash/
     - assets/images/onboarding/
+    - assets/branding/lazy_bear_club.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
